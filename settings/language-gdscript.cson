@@ -1,0 +1,10 @@
+'.source.gdscript':
+  'editor':
+    'commentStart': '# '
+    'commentDelimiters':
+      'line': '#'
+'.source.godot-resource':
+  'editor':
+    'commentStart': '; '
+    'commentDelimiters':
+      'line': ';'

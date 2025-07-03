@@ -1,0 +1,22 @@
+name: 'GDScript'
+scopeName: 'source.gdscript'
+type: 'modern-tree-sitter'
+parser: 'tree-sitter-gdscript'
+
+injectionRegex: '^(gdscript|GDSCRIPT)$'
+
+treeSitter:
+  parserSource: 'github:PrestonKnopp/tree-sitter-gdscript#2ed3ef9e30a7998a98eea4dfbcd308678f93b88f'
+  grammar: 'tree-sitter/gdscript/tree-sitter-gdscript.wasm'
+  highlightsQuery: 'tree-sitter/gdscript/highlights.scm'
+  foldsQuery: 'tree-sitter/gdscript/folds.scm'
+  indentsQuery: 'tree-sitter/gdscript/indents.scm'
+  tagsQuery: 'tree-sitter/gdscript/tags.scm'
+
+fileTypes: [
+  'gd'
+]
+
+comments:
+  start: '# '
+  line: '#'

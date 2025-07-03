@@ -1,0 +1,22 @@
+name: 'Godot Resource'
+scopeName: 'source.godot-resource'
+type: 'modern-tree-sitter'
+parser: 'tree-sitter-godot-resource'
+
+injectionRegex: '^(godot-resource|godotResource)$'
+
+treeSitter:
+  parserSource: 'github:PrestonKnopp/tree-sitter-godot-resource#9bbb540e8a2734101c6857bd437f04baa974e03d'
+  grammar: 'tree-sitter/godot-resource/tree-sitter-godot_resource.wasm'
+  highlightsQuery: 'tree-sitter/godot-resource/highlights.scm'
+  foldsQuery: 'tree-sitter/godot-resource/folds.scm'
+
+fileTypes: [
+  "tres",
+  "tscn",
+  "godot"
+]
+
+comments:
+  start: '; '
+  line: ';'
