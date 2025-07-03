@@ -6,7 +6,7 @@
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/savetheclocktower/language-gdscript",
+  "repository": "https://github.com/savetheclocktower/language-gdscript-redux",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
