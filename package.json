@@ -1,6 +1,6 @@
 {
   "name": "language-gdscript-redux",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "GDScript (Godot) language support for Pulsar",
   "keywords": [
     "language",
